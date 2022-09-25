@@ -1,0 +1,11 @@
+body > * {
+  padding: 5px;
+}
+
+body {
+  min-width: 225px;
+}
+
+a {
+  text-transform: lowercase;
+}

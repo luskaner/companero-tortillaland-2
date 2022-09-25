@@ -1,0 +1,12 @@
+.youtube-button,
+.youtube-button:active {
+  background-color: red;
+}
+
+.youtube-button:hover {
+  background-color: crimson;
+}
+
+.youtube-button > img {
+  margin-bottom: 2px;
+}

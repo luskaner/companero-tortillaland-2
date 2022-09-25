@@ -1,0 +1,28 @@
+{
+  "name": "__MSG_extension_name__",
+  "description": "__MSG_extension_description__",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "js/background.bundle.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "html/popup/login.html"
+  },
+  "options_ui": {
+    "page": "html/options/main.html",
+    "open_in_tab": false
+  },
+  "permissions": [
+    "storage",
+    "alarms",
+    "identity"
+  ],
+  "icons": {
+    "16": "assets/images/logos/logo16.png",
+    "32": "assets/images/logos/logo32.png",
+    "48": "assets/images/logos/logo48.png",
+    "128": "assets/images/logos/logo128.png"
+  },
+  "default_locale": "es"
+}

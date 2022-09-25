@@ -1,0 +1,31 @@
+[chrome]
+
+last 2 Chrome versions
+
+[edge]
+
+last 3 Edge versions
+
+[opera]
+
+last 2 Opera versions
+
+[firefox]
+
+last 2 Firefox versions, Firefox ESR
+
+[firefox.v3]
+
+last 1 Firefox version
+
+[firefox-android]
+
+last 1 FirefoxAndroid version
+
+[generic.v2]
+
+defaults
+
+[generic.v3]
+
+defaults

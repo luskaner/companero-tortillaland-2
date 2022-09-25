@@ -1,0 +1,43 @@
+body > * {
+  padding: 5px;
+}
+
+body {
+  min-width: 380px;
+  min-height: 330px;
+}
+
+label {
+  width: 100%;
+  display: inline-block;
+}
+
+ul {
+  /* Only for gecko-based browsers */
+  margin: 0;
+}
+
+.post-info {
+  display: block;
+  margin-top: 10px;
+}
+
+.brand-button {
+  color: white;
+  font-weight: 600;
+  border-radius: 4px;
+  height: 30px;
+  width: 100%;
+  border-color: transparent;
+
+  /* Only for gecko-based browsers */
+  text-align: center;
+}
+
+.brand-button:hover {
+  cursor: pointer;
+}
+
+.brand-button > img {
+  vertical-align: middle;
+}

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "../node_modules/@types",
+      "./typings"
+    ],
+    "strict": true,
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "ES2022"
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "strict": false
+    }
+  }
+}

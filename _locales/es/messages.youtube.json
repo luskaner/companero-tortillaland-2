@@ -1,0 +1,14 @@
+{
+  "login_info": {
+    "message": "Conecta con Twitch y/o Youtube en {link} para acceder a los canales retransmitiendo en la respectiva plataforma"
+  },
+  "options_platform_disconnect_youtube_link_text": {
+    "message": "aquí"
+  },
+  "players_favourite_icon": {
+    "message": "Icono de Canal seguido (Twitch) o suscrito (Youtube)"
+  },
+  "youtube_logo_alt": {
+    "message": "Logo de Youtube"
+  }
+}

@@ -1,0 +1,41 @@
+.form-control {
+  display: grid;
+  grid-template-columns: 1em auto;
+  -webkit-user-select: none;
+  user-select: none;
+  gap: 0.5em;
+  align-items: end;
+}
+
+.form-control + .form-control {
+  margin-top: 1em;
+}
+
+.form-control > input[type="checkbox"] {
+  appearance: none;
+  margin: 0;
+  font: inherit;
+  background-image: url("/assets/images/app/space.png");
+  image-rendering: pixelated;
+  background-size: 100%;
+  width: 20px;
+  height: 20px;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.form-control > input[type="checkbox"]:disabled {
+  opacity: 0.25;
+}
+
+.form-control > input[type="checkbox"]:checked {
+  background-image: url("/assets/images/app/check.png");
+}
+
+.form-control > input[type="checkbox"]:enabled:hover {
+  background-image: url("/assets/images/app/spaceHover.png");
+}
+
+.form-control > input[type="checkbox"]:enabled:checked:hover {
+  background-image: url("/assets/images/app/checkHover.png");
+}

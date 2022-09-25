@@ -1,0 +1,63 @@
+:root {
+  --scrollbar-foreground-color: #c0c0c0;
+  --scrollbar-background-color: black;
+}
+
+body {
+  margin: 0;
+  background-color: #919191;
+  color: #292929;
+  font-family: minecraft, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+  /** Gecko-based browsers **/
+  scrollbar-color: var(--scrollbar-foreground-color) var(--scrollbar-background-color);
+  scrollbar-width: thin;
+}
+
+@font-face {
+  font-family: minecraft;
+  src: url("/assets/fonts/minecraft.ttf");
+}
+
+.info {
+  font-size: 11px;
+  background-color: lightblue;
+  color: black;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.info > img {
+  vertical-align: middle;
+  height: 10px;
+}
+
+.loader {
+  background-image: url("/assets/images/app/clock.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  white-space: nowrap;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding-left: 15px;
+}
+
+.post-info {
+  font-size: 14px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-background-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-foreground-color);
+  box-shadow: inset -1px -1px 0 1px #808080;
+}

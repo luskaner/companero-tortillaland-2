@@ -1,0 +1,83 @@
+{
+  "extension_name": {
+    "message": "Compañero de TortillaLand 2"
+  },
+  "extension_description": {
+    "message": "Extensión de navegador de TortillaLand 2 no oficial que permite ver y acceder al canal de los jugadores"
+  },
+  "loading_info": {
+    "message": "Cargando..."
+  },
+  "options_title": {
+    "message": "Opciones"
+  },
+  "options_connect_with": {
+    "message": "Conectar con"
+  },
+  "options_disconnect_of": {
+    "message": "Desconectar de"
+  },
+  "options_twitch_following_info": {
+    "message": "El siguiente permiso opcional se utilizará para dar prioridad a los canales"
+  },
+  "options_twitch_read_followers": {
+    "message": "Leer canales seguidos"
+  },
+  "options_platform_disconnect_info": {
+    "message": "Puedes desconectar totalmente la extensión de tu cuenta en"
+  },
+  "options_platform_disconnect_twitch_link_text": {
+    "message": "Configuración ➡ Conexiones ➡ Otras conexiones"
+  },
+  "options_credits_title": {
+    "message": "Créditos"
+  },
+  "options_credits_mojang": {
+    "message": "Iconos de Minecraft por Mojang"
+  },
+  "login_title": {
+    "message": "Iniciar sesión"
+  },
+  "login_info": {
+    "message": "Conecta con Twitch en {link} para acceder a los canales retransmitiendo"
+  },
+  "players_title": {
+    "message": "Retransmisiones de TortillaLand 2"
+  },
+  "players_of": {
+    "message": " de "
+  },
+  "players_online_streams": {
+    "message": "Retransmisiones en directo"
+  },
+  "players_no_online_streams": {
+    "message": "No hay ningún canal en directo"
+  },
+  "players_viewers": {
+    "message": "Número total de espectadores"
+  },
+  "players_video_icon": {
+    "message": "Icono de vídeo"
+  },
+  "players_people_icon": {
+    "message": "Icono de gente"
+  },
+  "players_person_icon": {
+    "message": "Icono de persona"
+  },
+  "players_creeper_icon": {
+    "message": "Icono de creeper"
+  },
+  "players_favourite_icon": {
+    "message": "Icono de Canal seguido"
+  },
+  "twitch_logo_alt": {
+    "message": "Logo de Twitch"
+  },
+  "info_icon_alt": {
+    "message": "Logo de Información"
+  },
+  "html_meta_language": {
+    "message": "es"
+  }
+}

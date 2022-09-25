@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html data-locale-attrs='{"lang": "html_meta_language"}'>
+
+<head>
+  <meta charset="UTF-8">
+  <title data-locale="options_title"></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+</head>
+
+<body>
+  <h1 data-locale="options_title"></h1>
+  <h2 data-locale="options_credits_title" id="optionsTitle"></h2>
+  <ul>
+    <li><a href="https://www.minecraft.net/" data-locale-attrs='{"title": "options_credits_mojang"}' data-locale="options_credits_mojang"></a>
+    </li>
+  </ul>
+
+  <template id="platformBase">
+    <h2></h2>
+    <div data-locale="loading_info" class="loader"></div>
+    <form style="display: none">
+      <button type="submit"><span class="button-text" data-locale="options_connect_with"></span> <img /></button>
+    </form>
+  </template>
+
+  <template id="platformScopeInfo">
+    <div class="info"><img data-locale-attrs='{"alt": "info_icon_alt"}' src="/assets/images/app/updateGlyph.png" />
+      <span></span>
+    </div>
+  </template>
+
+  <template id="platformScopeCheckbox">
+    <label class="form-control scope"><input type="checkbox"><span></span></label>
+  </template>
+
+  <template id="platformEnd">
+    <span class="post-info only-connected" style="display: none">
+      <span data-locale="options_platform_disconnect_info"></span> <a target="_blank"></a>
+    </span>
+    <input type="hidden" name="type" value="connect">
+    <input type="hidden" name="platform">
+  </template>
+
+</body>
+
+</html>
