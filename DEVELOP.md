@@ -12,6 +12,7 @@
 
 # Preparación
 
+1. Clona el repositorio **incluyendo submódulos**: `git clone --recursive https://github.com/luskaner/companero-tortillaland-2.git`
 1. Instalar dependencias: `npm install`.
 1. Copiar `assets/data/env.template.json` en `assets/data/env.json` escribiendo el correspondiente `twitchClientId`.
 1. (*Opcional*) Si hay canales en youtube (verificar que `assets/data/data.json` en la clave `channels` incluya algun valor que comience por "youtube:") copiar `assets/data/youtube.env.template.json` en `assets/data/youtube.env.json` escribiendo el correspondiente `youtubeClientId`.
