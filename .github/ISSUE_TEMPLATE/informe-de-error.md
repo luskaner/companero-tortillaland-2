@@ -2,7 +2,7 @@
 name: Informe de Error
 about: Crear un informe para ayudarnos a mejorar
 title: "[ERROR]"
-labels: bug
+labels: error
 assignees: luskaner
 
 ---
