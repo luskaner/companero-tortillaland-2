@@ -2,7 +2,7 @@
 name: Petición de funcionalidad
 about: Sugiere una idea para este proyecto
 title: "[PETICIÓN]"
-labels: enhancement
+labels: mejora
 assignees: luskaner
 
 ---
