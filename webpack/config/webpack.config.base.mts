@@ -82,14 +82,22 @@ function baseConfig( baseSrcPath: string, browserslistEnv: BrowserType ): Webpac
       rules: [
         {
           test: /\.ts$/,
-          use: [{
-            loader: 'babel-loader',
-            options: {
-              presets: [
-                ['@babel/preset-env', { modules: false, browserslistEnv }]
-              ]
+          use: [
+            {
+              loader: 'babel-loader',
+              options: {
+                presets: [
+                  ['@babel/preset-env', { modules: false, browserslistEnv }]
+                ]
+              }
+            }, 
+            {
+              loader: 'ts-loader',
+              options: {
+                transpileOnly: true
+              }
             }
-          }, 'ts-loader'],
+          ],
           exclude: /node_modules/,
         },
       ],
