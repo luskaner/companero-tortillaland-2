@@ -17,7 +17,7 @@ Extensión de navegador de TortillaLand 2 **no oficial** que permite ver y acced
 
 ### Dispositivo Móvil Android
 
-* Firefox.
+* Firefox (*solo mediante el paquete independiente inicialmente*).
 * Kiwi Browser (*solo mediante el paquete independiente*).
 
 *Nota: Otros navegadores no listados pueden ser compatibles: intenta averiguar si está basado en otro motor (generalmente Chromium, como Google Chrome, o Gecko, como Firefox) y sinó probar con los paquetes genéricos.*
@@ -26,10 +26,12 @@ Extensión de navegador de TortillaLand 2 **no oficial** que permite ver y acced
 
 ### Tienda de aplicaciones en línea
 
-* *Chrome Web Store*: Chromium y derivados, especialmente Google Chrome. Es preferible usar la tienda específica del navegador si existe.
+* [Chrome Web Store](https://chrome.google.com/webstore/detail/gkenadplonllfndfpcdfblfjhdeifjbm): Chromium y derivados, especialmente Google Chrome. Es preferible usar la tienda específica del navegador si existe.
 * *Complementos de Edge*: Microsoft Edge y derivados.
 * *Complementos para Firefox*: Firefox y derivados.
 * *Opera addons*: Opera y derivados.
+
+**Nota: El complemento está en proceso de ser subido, revisado y publicado**.
 
 ### Paquete independiente
 
