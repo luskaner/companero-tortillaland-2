@@ -28,8 +28,8 @@ Extensión de navegador de TortillaLand 2 **no oficial** que permite ver y acced
 
 * [Chrome Web Store](https://chrome.google.com/webstore/detail/gkenadplonllfndfpcdfblfjhdeifjbm): Chromium y derivados, especialmente Google Chrome. Es preferible usar la tienda específica del navegador si existe.
 * *Complementos de Edge*: Microsoft Edge y derivados.
-* *Complementos para Firefox*: Firefox y derivados.
-* *Opera addons*: Opera y derivados.
+* [Complementos para Firefox](https://addons.mozilla.org/firefox/addon/compañero-de-tortillaland-2/): Firefox y derivados.
+* [Opera addons](https://addons.opera.com/extensions/details/companero-de-tortillaland-2/): Opera y derivados.
 
 **Nota: El complemento está en proceso de ser subido, revisado y publicado**.
 

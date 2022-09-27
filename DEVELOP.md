@@ -53,3 +53,10 @@ Se pueden depurar los paquetes mediante `npm run watch:<nombre>` donde el *Nombr
 # Comprobación estática de código de Typescript
 
 En la construción o depuración de paquetes se realiza automáticamente aunque se puede ejecutar directamente mediante `npm run lint`. Dichos procesos requieren que no hay ninguna advertencia o error para proceder correctamente.
+
+# Información de tiendas
+
+* [Chrome Web Store](./info_stores/ChromeWebStore/ChromeWebStore.md)
+* [Microsoft Edge Addons](./info_stores/EdgeAddons/EdgeAddons.md)
+* [Mozilla Addons](./info_stores/MozillaAddons/MozillaAddons.md)
+* [Opera addons](./info_stores/OperaAddons/OperaAddons.md)
