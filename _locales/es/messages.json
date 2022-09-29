@@ -29,11 +29,14 @@
   "options_platform_disconnect_twitch_link_text": {
     "message": "Configuración ➡ Conexiones ➡ Otras conexiones"
   },
-  "options_credits_title": {
-    "message": "Créditos"
+  "options_disclaimer_title": {
+    "message": "Descargo de Responsabilidad"
+  },  
+  "options_disclaimer_tortilla": {
+    "message": "NO ES UN PRODUCTO OFICIAL DE TORTILLALAND. NO ESTÁ APROBADO POR AURONPLAY NI ASOCIADO CON ÉL."
   },
-  "options_credits_mojang": {
-    "message": "Iconos de Minecraft por Mojang"
+  "options_disclaimer_mojang": {
+    "message": "NO ES UN PRODUCTO OFICIAL DE MINECRAFT. NO ESTÁ APROBADO POR MOJANG NI ASOCIADO CON ÉL."
   },
   "login_title": {
     "message": "Iniciar sesión"

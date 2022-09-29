@@ -1,6 +1,6 @@
 # Compañero de TortillaLand 2
 
-Extensión de navegador de TortillaLand 2 **no oficial** que permite ver y acceder al canal de los jugadores.
+Extensión de navegador de TortillaLand 2 que permite ver y acceder al canal de los jugadores.
 
 ## Compatibilidad
 
@@ -48,4 +48,6 @@ Extensión de navegador de TortillaLand 2 **no oficial** que permite ver y acced
 
 *Véase [DEVELOP.md](DEVELOP.md)*
 
-**Descargo de Responsabilidad**: Extensión no oficial de TortillaLand/TortillaLand 2, se usa el logo de TortillaLand 2 que pertenece a "AuronPlay" y "Team Tortilla".
+**Descargo de Responsabilidad**: 
+* NO ES UN PRODUCTO OFICIAL DE TORTILLALAND. NO ESTÁ APROBADO POR AURONPLAY NI ASOCIADO CON ÉL.
+* NO ES UN PRODUCTO OFICIAL DE MINECRAFT. NO ESTÁ APROBADO POR MOJANG NI ASOCIADO CON ÉL.

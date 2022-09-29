@@ -34,7 +34,7 @@ body {
 }
 
 .loader {
-  background-image: url("/assets/images/app/clock.png");
+  background-image: url("/assets/images/app/minecraft/clock.png");
   background-position: left;
   background-repeat: no-repeat;
   white-space: nowrap;

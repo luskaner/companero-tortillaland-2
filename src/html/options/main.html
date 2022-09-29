@@ -4,15 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <title data-locale="options_title"></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
   <h1 data-locale="options_title"></h1>
-  <h2 data-locale="options_credits_title" id="optionsTitle"></h2>
+  <h2 data-locale="options_disclaimer_title" id="optionsDisclaimer"></h2>
   <ul>
-    <li><a href="https://www.minecraft.net/" data-locale-attrs='{"title": "options_credits_mojang"}' data-locale="options_credits_mojang"></a>
-    </li>
+    <li data-locale="options_disclaimer_tortilla"></li>
+    <li data-locale="options_disclaimer_mojang"></li>
   </ul>
 
   <template id="platformBase">
@@ -24,7 +24,8 @@
   </template>
 
   <template id="platformScopeInfo">
-    <div class="info"><img data-locale-attrs='{"alt": "info_icon_alt"}' src="/assets/images/app/updateGlyph.png" />
+    <div class="info"><img data-locale-attrs='{"alt": "info_icon_alt"}'
+        src="/assets/images/app/minecraft/updateGlyph.png" />
       <span></span>
     </div>
   </template>

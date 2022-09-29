@@ -15,7 +15,7 @@
   appearance: none;
   margin: 0;
   font: inherit;
-  background-image: url("/assets/images/app/space.png");
+  background-image: url("/assets/images/app/minecraft/space.png");
   image-rendering: pixelated;
   background-size: 100%;
   width: 20px;
@@ -29,13 +29,13 @@
 }
 
 .form-control > input[type="checkbox"]:checked {
-  background-image: url("/assets/images/app/check.png");
+  background-image: url("/assets/images/app/minecraft/check.png");
 }
 
 .form-control > input[type="checkbox"]:enabled:hover {
-  background-image: url("/assets/images/app/spaceHover.png");
+  background-image: url("/assets/images/app/minecraft/spaceHover.png");
 }
 
 .form-control > input[type="checkbox"]:enabled:checked:hover {
-  background-image: url("/assets/images/app/checkHover.png");
+  background-image: url("/assets/images/app/minecraft/checkHover.png");
 }

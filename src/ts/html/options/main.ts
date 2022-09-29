@@ -71,7 +71,7 @@ function initializeDom() {
   const scopeInfoTemplate = ( document.getElementById( 'platformScopeInfo' ) as HTMLTemplateElement ).content
   const scopeCheckboxTemplate = ( document.getElementById( 'platformScopeCheckbox' ) as HTMLTemplateElement ).content
   const endTemplate = ( document.getElementById( 'platformEnd' ) as HTMLTemplateElement ).content
-  const optionsTitle = document.getElementById( 'optionsTitle' ) as HTMLElement
+  const optionsDisclaimer = document.getElementById( 'optionsDisclaimer' ) as HTMLElement
 
   for ( const platform of new PlatformList().getPlatforms() ) {
     const base = baseTemplate.cloneNode( true ) as DocumentFragment
@@ -107,7 +107,7 @@ function initializeDom() {
     connectedInfoSpanLink.textContent = permissionInfo.text;
     ( end.querySelector( 'input[name="platform"]' ) as HTMLInputElement ).value = platform.identifier()
     form.appendChild( end )
-    document.body.insertBefore( base, optionsTitle )
+    document.body.insertBefore( base, optionsDisclaimer )
   }
 }
 
