@@ -144,7 +144,9 @@ function update( newStreams: EnrichedStream[] ) {
 }
 
 async function init() {
-  document.body.style.height = `${ window.innerHeight }px`
+  if (window.innerHeight > 0) {
+    document.body.style.height = `${ window.innerHeight }px`
+  }
   for ( ; ; ) {
     const data = await browser.storage.local.get( 'streams' )
     if ( 'streams' in data ) {
