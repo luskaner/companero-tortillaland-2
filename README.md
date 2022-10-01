@@ -22,6 +22,10 @@ Extensión de navegador de TortillaLand 2 que permite ver y acceder al canal de 
 
 *Nota: Otros navegadores no listados pueden ser compatibles: intenta averiguar si está basado en otro motor (generalmente Chromium, como Google Chrome, o Gecko, como Firefox) y sinó probar con los paquetes genéricos.*
 
+### Sitio Web
+
+Si bien los navegadores soportados por la extensión *deberían* funcionar bien en *Twitch* solo parte de ellos están [oficialmente soportados](https://help.twitch.tv/s/article/supported-browsers?language=es) (incluyendo sólo versiones más recientes).
+
 ## Descarga e Instalación
 
 ### Tienda de aplicaciones en línea
