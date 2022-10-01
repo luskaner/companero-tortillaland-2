@@ -5,6 +5,7 @@ import getConfigs, { env } from './webpack.config.base.mjs'
 import { EnvType } from '../types/env.js';
 
 const webExtOptions: WebExtPluginOptions = { target: 'firefox-android', runLint: true }
+webExtOptions.adbRemoveOldArtifacts = true
 const platformKey = 'firefox-android'
 if ( env?.browser?.[platformKey] ) {
   const adbFields = new Set<keyof WebExtPluginOptions>( ["adbBin", "adbHost", "adbPort", "adbDevice", "adbDiscoveryTimeout", "adbRemoveOldArtifacts", "firefoxApk", "firefoxApkComponent"] )
@@ -15,6 +16,7 @@ if ( env?.browser?.[platformKey] ) {
     }
   }
 }
+webExtOptions.browserConsole = false
 
 export default getConfigs( {
   browserslistEnv: 'firefox-android', manifestVersion: 2, identityPolyfill: true, manifestGenerator: ( baseManifest, minimumVersion ) => {
