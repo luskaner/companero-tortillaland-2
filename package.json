@@ -7,7 +7,7 @@
     "@babel/preset-env": "^7.19.3",
     "@types/chrome": "^0.0.193",
     "@types/firefox-webext-browser": "^94.0.1",
-    "@types/node": "^18.8.0",
+    "@types/node": "^16",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
     "@typescript-eslint/parser": "^5.38.1",
     "babel-loader": "^8.2.5",
