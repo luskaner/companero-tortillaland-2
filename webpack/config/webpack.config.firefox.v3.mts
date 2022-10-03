@@ -13,5 +13,5 @@ export default getConfigs( {
       scripts: [( baseManifest.background as { service_worker: string } ).service_worker]
     }
     return baseManifest
-  }, webExtOptions: { firefox: transformPathWithVariables( (env as EnvType).browserPaths.firefox ), target: 'firefox-desktop', firefoxPreview: 'mv3' }
+  }, webExtOptions: { firefox: transformPathWithVariables( (env as EnvType).browserPaths.firefox ), target: 'firefox-desktop', firefoxPreview: ['mv3'] }
 } )
