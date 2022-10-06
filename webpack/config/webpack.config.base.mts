@@ -293,6 +293,7 @@ export default function getConfigs( { browserslistEnv, identityPolyfill = false,
           overwriteDest: true,
           browserConsole: environment?.WEBPACK_WATCH,
           runLint: false,
+          lintWarningsAsErrors: !environment?.WEBPACK_WATCH,
           target: 'chromium',
           ...webExtOptions
         } ),
