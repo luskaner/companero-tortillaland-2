@@ -19,7 +19,7 @@
     "generate-json-webpack-plugin": "^2.0.0",
     "html-loader": "^4.1.0",
     "html-webpack-plugin": "^5.5.0",
-    "postcss": "^8.4.14",
+    "postcss": "^8.4.17",
     "postcss-loader": "^7.0.1",
     "postcss-preset-env": "^7.7.2",
     "style-loader": "^3.3.1",
