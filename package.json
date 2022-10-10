@@ -3,7 +3,7 @@
   "private": true,
   "devDependencies": {
     "@babel/cli": "^7.19.3",
-    "@babel/core": "^7.18.9",
+    "@babel/core": "^7.19.3",
     "@babel/preset-env": "^7.19.3",
     "@types/chrome": "^0.0.197",
     "@types/firefox-webext-browser": "^94.0.1",
