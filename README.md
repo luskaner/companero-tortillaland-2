@@ -31,7 +31,7 @@ Si bien los navegadores soportados por la extensión *deberían* funcionar bien 
 ### Tienda de aplicaciones en línea
 
 * [Chrome Web Store](https://chrome.google.com/webstore/detail/gkenadplonllfndfpcdfblfjhdeifjbm): Chromium y derivados, especialmente Google Chrome. Es preferible usar la tienda específica del navegador si existe.
-* *Complementos de Edge*: Microsoft Edge y derivados.
+* [Complementos de Edge](https://microsoftedge.microsoft.com/addons/detail/compa%C3%B1ero-de-tortillaland/kmalbemecadcgahnffkkilcmclnhkdld): Microsoft Edge y derivados.
 * [Complementos para Firefox](https://addons.mozilla.org/firefox/addon/compañero-de-tortillaland-2/): Firefox y derivados.
 * [Opera addons](https://addons.opera.com/extensions/details/companero-de-tortillaland-2/): Opera y derivados.
 
