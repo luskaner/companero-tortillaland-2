@@ -50,6 +50,7 @@ Si bien los navegadores soportados por la extensión *deberían* funcionar bien 
 
 *Véase [DEVELOP.md](DEVELOP.md)*
 
-**Descargo de Responsabilidad**: 
+**Descargo de Responsabilidad**:
+
 * NO ES UN PRODUCTO OFICIAL DE TORTILLALAND. NO ESTÁ APROBADO POR AURONPLAY NI ASOCIADO CON ÉL.
 * NO ES UN PRODUCTO OFICIAL DE MINECRAFT. NO ESTÁ APROBADO POR MOJANG NI ASOCIADO CON ÉL.
