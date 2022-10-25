@@ -41,7 +41,10 @@
     "twitch:momonkunn",
     "twitch:olliegamerz",
     "twitch:mariusoptimus",
-    "twitch:robleis"
+    "twitch:robleis",
+    "twitch:edurnity",
+    "twitch:flisflisher",
+    "twitch:kajalnapalm"
   ],
   "islands": {
     "ORANGE": [
@@ -65,7 +68,8 @@
       "polispol1",
       "josecristo_",
       "elisawaves",
-      "robleis"
+      "robleis",
+      "edurnity"
     ],
     "GREEN": [
       "8cho",
@@ -88,7 +92,9 @@
       "rioboo",
       "momonkunn",
       "olliegamerz",
-      "mariusoptimus"
+      "mariusoptimus",
+      "flisflisher",
+      "kajalnapalm"
     ]
   },
   "timers": {
