@@ -1,6 +1,6 @@
 # Requirements
 
-* Node LTS (v16) or higher.
+* Node LTS (v18) or higher.
 * Package manager compatible with NPM included in Node.
 
 # Getting Started
