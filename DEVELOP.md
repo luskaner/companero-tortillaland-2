@@ -2,7 +2,7 @@
 
 ## Básicos
 
-* Node LTS (v16) o superior.
+* Node LTS (v18) o superior.
 * Gestor de dependencias compatible con NPM incluído en Node.
 
 ## Depuración
