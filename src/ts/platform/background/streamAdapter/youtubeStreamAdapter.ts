@@ -1,9 +1,10 @@
 import OauthYoutubeAPIClient from "../../../oauthClient/youtube/main";
-import { ApiStream, PartialApiStream } from "../../../types/stream";
+import { ApiStream } from "../../../types/stream";
 import StreamAdapter from "./streamAdapter";
 
 export default class YoutubeStreamAdapter extends StreamAdapter<OauthYoutubeAPIClient> {
-  protected async doGetStreams( client: OauthYoutubeAPIClient, channelIds: Set<string>, acceptStream?: ( baseStream: PartialApiStream ) => boolean ) {
+  protected async doGetStreams( client: OauthYoutubeAPIClient, channelIds: Set<string> ) {
+    const partialStreams: Record<string, { subtitle: string, viewers: number, url: string }> = {}
     const apiStreams: Record<string, ApiStream> = {}
     const streams = await client.getStreams( channelIds )
     if ( Object.keys( streams ).length > 0 ) {
@@ -11,27 +12,27 @@ export default class YoutubeStreamAdapter extends StreamAdapter<OauthYoutubeAPIC
       Object.keys( streams ).forEach( channelId => {
         const videoId = streams[channelId]
         const video = videos[videoId]
-        const baseStream: PartialApiStream = {
-          subtitle: video.title
-        }
-        if ( !acceptStream || acceptStream( baseStream ) ) {
-          const apiStream = baseStream as ApiStream
-          apiStream.url = `https://www.youtube.com/watch?v=${ videoId }`
-          apiStream.viewers = video.viewers
-          apiStreams[channelId] = apiStream
+        if ( video.title.toLocaleLowerCase().includes( 'tortill' ) ) {
+          partialStreams[channelId] = {
+            subtitle: video.title,
+            url: `https://www.youtube.com/watch?v=${ videoId }`,
+            viewers: video.viewers,
+          }
         }
       } )
 
-      if ( Object.keys( apiStreams ).length > 0 ) {
-        const users = await client.getUsers( new Set(Object.keys( apiStreams )) )
+      if ( Object.keys( partialStreams ).length > 0 ) {
+        const users = await client.getUsers( new Set( Object.keys( partialStreams ) ) )
         const followedChannels = await client.getSubscribedChannels()
-        Object.entries( apiStreams ).forEach( apiStreamEntry => {
-          const [channelId, apiStream] = apiStreamEntry
+        for ( const [channelId, partialStream] of Object.entries( partialStreams ) ) {
           const user = users[channelId]
-          apiStream.favourite = followedChannels.has( channelId )
-          apiStream.imageUrl = user.profileImage.toString()
-          apiStream.title = user.name
-        } )
+          apiStreams[channelId] = {
+            ...partialStream,
+            favourite: followedChannels.has( channelId ),
+            imageUrl: user.profileImage.toString(),
+            title: user.name
+          }
+        }
       }
     }
 

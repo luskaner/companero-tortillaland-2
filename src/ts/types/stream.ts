@@ -8,8 +8,9 @@ type ExtraStream = {
 };
 
 
-type RemainingApiStream = {
+export type ApiStream = {
   title: string;
+  subtitle: string;
   url: string;
   imageUrl: string;
   viewers: number;
@@ -17,9 +18,4 @@ type RemainingApiStream = {
   priority?: number;
 }
 
-export type PartialApiStream = {
-  subtitle: string;
-}
-
 export type EnrichedStream = ApiStream & ExtraStream
-export type ApiStream = RemainingApiStream & PartialApiStream

@@ -1,6 +1,6 @@
 import Data from '/assets/data/data.json'
 
-import { ApiStream, EnrichedStream, IslandType, PartialApiStream } from './types/stream'
+import { ApiStream, EnrichedStream, IslandType } from './types/stream'
 import { DataType } from './types/data'
 import { ConnectDisconnectResponse, ConnectMessage, DisconnectMessage, Message, Response, StatusResponse } from './types/messaging'
 import PlatformList from './platform/background/BackgroundPlatformListCompile'
@@ -37,10 +37,6 @@ async function validate(): Promise<void> {
   }
 }
 
-function acceptStream( stream: PartialApiStream ) {
-  return stream.subtitle.toLocaleLowerCase().includes( 'tortill' )
-}
-
 async function getAllStreams(): Promise<EnrichedStream[]> {
   const channelIds: Record<string, Set<string>> = {}
   const islands: Record<string, IslandType> = {}
@@ -71,7 +67,6 @@ async function getAllStreams(): Promise<EnrichedStream[]> {
         const apiStreams = await platform.getStreamAdapter().getStreams(
           client,
           channelIds[identifier],
-          acceptStream
         ) as Record<string, ApiStream>
         for ( const [channel, apiStream] of Object.entries( apiStreams ) ) {
           streams.push( {
