@@ -1,10 +1,10 @@
 {
-  "chrome": "1.0.2",
-  "edge": "1.0.2",
-  "firefox": "1.0.4",
-  "opera": "1.0.4",
-  "firefox-android": "1.0.2",
-  "firefox.v3": "1.0.4",
-  "generic.v2": "1.0.2",
-  "generic.v3": "1.0.2"
+  "chrome": "1.1.0",
+  "edge": "1.1.0",
+  "firefox": "1.1.0",
+  "opera": "1.1.0",
+  "firefox-android": "1.1.0",
+  "firefox.v3": "1.1.0",
+  "generic.v2": "1.1.0",
+  "generic.v3": "1.1.0"
 }
