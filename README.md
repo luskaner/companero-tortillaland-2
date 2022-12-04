@@ -1,3 +1,5 @@
+# ⚠️ **TortillaLand 2 ha acabado con ello se archiva el repositorio y se quitan las extensiones de todas las tiendas**
+
 # Compañero de TortillaLand 2
 
 Extensión de navegador de TortillaLand 2 que permite ver y acceder al canal de los jugadores.
@@ -17,8 +19,8 @@ Extensión de navegador de TortillaLand 2 que permite ver y acceder al canal de 
 
 ### Dispositivo Móvil Android
 
-* Firefox (*solo mediante el paquete independiente inicialmente*).
-* Kiwi Browser (*solo mediante el paquete independiente*).
+* Firefox.
+* Kiwi Browser.
 
 *Nota: Otros navegadores no listados pueden ser compatibles: intenta averiguar si está basado en otro motor (generalmente Chromium, como Google Chrome, o Gecko, como Firefox) y sinó probar con los paquetes genéricos.*
 
@@ -27,13 +29,6 @@ Extensión de navegador de TortillaLand 2 que permite ver y acceder al canal de 
 Si bien los navegadores soportados por la extensión *deberían* funcionar bien en *Twitch* solo parte de ellos están [oficialmente soportados](https://help.twitch.tv/s/article/supported-browsers?language=es) (incluyendo sólo versiones más recientes).
 
 ## Descarga e Instalación
-
-### Tienda de aplicaciones en línea
-
-* [Chrome Web Store](https://chrome.google.com/webstore/detail/gkenadplonllfndfpcdfblfjhdeifjbm): Chromium y derivados, especialmente Google Chrome. Es preferible usar la tienda específica del navegador si existe.
-* [Complementos de Edge](https://microsoftedge.microsoft.com/addons/detail/compa%C3%B1ero-de-tortillaland/kmalbemecadcgahnffkkilcmclnhkdld): Microsoft Edge y derivados.
-* [Complementos para Firefox](https://addons.mozilla.org/firefox/addon/compañero-de-tortillaland-2/): Firefox y derivados.
-* [Opera addons](https://addons.opera.com/extensions/details/companero-de-tortillaland-2/) - **en revisión, utilizar *Chrome Web Store* mientras**: Opera y derivados.
 
 ### Paquete independiente
 
